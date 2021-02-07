@@ -3,8 +3,12 @@
 #
 
 # terminal emulator
-alt + Return
-	urxvt
+super + Return
+	st
+
+# another terminal emulator
+super + shift + Return
+	alacritty
 
 # program launcher
 alt + @space
@@ -135,13 +139,13 @@ Print
 
 #volume control
 XF86AudioRaiseVolume
-	amixer set 'Master' 5%+
+	pamixer --allow-boost -i 5
 
 XF86AudioLowerVolume
-	amixer set 'Master' 5%-
+	pamixer --allow-boost -d 5
 
 XF86AudioMute
-	amixer set Master toggle
+	pamixer -t
 
 #brightnessctl
 
@@ -152,5 +156,5 @@ XF86MonBrightnessDown
 	brightnessctl set 5%-
 
 #deadd
-super + Return
+alt + Return
 	kill -s USR1 $(pidof deadd-notification-center)
