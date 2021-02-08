@@ -29,7 +29,7 @@ These dotfiles are intended to go with the following programs:
 
 - [bspwm](https://github.com/baskerville/bspwm) (window manager)
 - [sxhkd](https://github.com/baskerville/sxhkd) (hotkey daemon for shortcuts)
-- [st](https://github.com/hadesagd/st) (terminal emulator for of LukeSmithxyz)
+- [st](https://github.com/hadesagd/st) (terminal emulator fork of LukeSmithxyz st terminal)
 
 These dotfiles go with a fork of LukeSmithxyz LARBS
 
