@@ -14,6 +14,10 @@ super + t
 alt + @space
 	~/.config/polybar/scripts/deepin-menu
 
+# another program launcher (while I figure out the top one)
+super + d
+	rofi -modi run,drun,window -show drun -show-icons -sidebar-mode
+
 # make sxhkd reload its configuration files:
 alt + Escape
 	pkill -USR1 -x sxhkd
