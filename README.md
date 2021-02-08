@@ -25,25 +25,12 @@ These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
 
 ## Usage
 
-These dotfiles are intended to go with numerous suckless programs I use:
+These dotfiles are intended to go with the following programs:
 
-- [dwm](https://github.com/lukesmithxyz/dwm) (window manager)
-- [dwmblocks](https://github.com/lukesmithxyz/dwmblocks) (statusbar)
-- [st](https://github.com/lukesmithxyz/st) (terminal emulator)
+- [bspwm](https://github.com/baskerville/bspwm) (window manager)
+- [sxhkd](https://github.com/baskerville/sxhkd) (hotkey daemon for shortcuts)
+- [st](https://github.com/hadesagd/st) (terminal emulator for of LukeSmithxyz)
 
-I also recommend trying out
-[mutt-wizard](https://github.com/lukesmithxyz/mutt-wizard), which additionally
-works with this setup. It gives you an easy-to-install terminal-based email
-client regardless of your email provider. It is integrated into these dotfiles
-as well.
+These dotfiles go with a fork of LukeSmithxyz LARBS
 
-## Install these dotfiles and all dependencies
-
-Use [LARBS](https://larbs.xyz) to autoinstall everything:
-
-```
-curl -LO larbs.xyz/larbs.sh
-```
-
-or clone the repo files directly to your home directory and install the
-[dependencies](https://github.com/LukeSmithxyz/LARBS/blob/master/progs.csv).
+- [LARBS](https://github.com/hadesagd/LARBS) (Downloading the larbs.sh from this repo does the trick of autoinstalling everything, WARNING this is work in process and things may/will break)
