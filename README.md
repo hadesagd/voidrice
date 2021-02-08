@@ -1,4 +1,5 @@
 # The Voidrice (Luke Smith <https://lukesmith.xyz>'s dotfiles)
+## My fork with a few modifications to use BSPWM instead of DWM as window manager
 
 These are the dotfiles deployed by [LARBS](https://larbs.xyz) and as seen on
 [my YouTube channel](https://youtube.com/c/lukesmithxyz).
