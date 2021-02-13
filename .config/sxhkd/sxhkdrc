@@ -23,7 +23,7 @@ alt + Escape
 	pkill -USR1 -x sxhkd
 
 # Exit menu
-super + Backspace
+super + BackSpace
 	sysact
 
 #
