@@ -2,11 +2,10 @@
 #bspc rule -r "*"
 ~/.config/polybar/./launch.sh
 sxhkd &
-~/.config/scripts/./deadd.sh
-#deadd-notification-center &
-#compton --experimental-backends &
+#~/.config/scripts/./deadd.sh
 #picom --experimental-backends &
 #polybar example &
+WALLPAPER="mohammed-nasim-FrA7zgb5lus-unsplash.jpg"
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
@@ -26,8 +25,8 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
 #CUSTOM
-feh --bg-fill $HOME/.local/share/bg &
-wal -i $HOME/.local/share/bg &
+feh --bg-fill $HOME/.local/share/wallpapers/$WALLPAPER &
+wal -i $HOME/.local/share/wallpapers/$WALLPAPER &
 . "${HOME}/.cache/wal/colors.sh"
 bspc config normal_border_color "$color1"
 bspc config active_border_color "$color2"
